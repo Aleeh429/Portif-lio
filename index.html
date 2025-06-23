@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="profile.jpeg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Alexia</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou Alexia, estudante de Programação e atualmente estou cursando o ensino médio. 
+            Tenho grande vontade de aprender e estou totalmente focada no meu desenvolvimento profissional.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projeto.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo de corrida</h5>
+                        <p class="card-text">Este projeto é um jogo de corrida simples e interativo, desenvolvido utilizando apenas HTML, CSS e JavaScript puro, sem o uso de frameworks ou bibliotecas externas.
+
+O objetivo principal do jogo é proporcionar uma experiência divertida, com uma interface responsiva e uma jogabilidade leve. O jogador controla um carro (ou outro personagem) desviando de obstáculos e tentando alcançar a maior pontuação possível.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Ver projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo de corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo de corrida simples e interativo, desenvolvido utilizando apenas HTML, CSS e JavaScript puro, sem o uso de frameworks ou bibliotecas externas.
+
+O objetivo principal do jogo é proporcionar uma experiência divertida, com uma interface responsiva e uma jogabilidade leve. O jogador controla um carro (ou outro personagem) desviando de obstáculos e tentando alcançar a maior pontuação possível.</p>
+                    <img src="projeto.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://keen-taiyaki-0cef4d.netlify.app/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/Aleeh429/Jogo-de-Corrida">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Aleeh429">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Alexia Camargo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
